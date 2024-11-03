@@ -20,11 +20,16 @@ int mod(int a, int b) {
     return a % b;
 }
 
+int square(int a) {
+    return a * a;
+}
+
 int main() {
     int x, y;
     printf("Enter two integers: ");
     scanf("%d %d", &x, &y);
 
+    printf("Square of %d: %d\n", x, square(x));
     printf("Sum: %d\n", add(x, y));
     printf("Difference: %d\n", subtract(x, y));
     printf("Product: %d\n", multiply(x, y));
