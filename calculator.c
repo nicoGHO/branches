@@ -24,7 +24,7 @@ int main() {
     printf("Sum: %d\n", add(x, y));
     printf("Difference: %d\n", subtract(x, y));
     printf("Product: %d\n", multiply(x, y));
-	if (b != 0)	
+	if (x != 0)	
 		printf("Division: %d\n", divide(x, y));
 	else
 		printf("Division cannot be performed because b = 0\n");
