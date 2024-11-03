@@ -18,9 +18,15 @@ int divide(int a, int b) {
 
 int main() {
     int x, y;
+    printf("--------------------\n");
+    printf("Simple Calculator\n");
+    printf("--------------------\n");
     printf("Enter two integers: ");
     scanf("%d %d", &x, &y);
 
+    printf("--------------------\n");
+    printf("Results\n");
+    printf("--------------------\n");
     printf("Sum: %d\n", add(x, y));
     printf("Difference: %d\n", subtract(x, y));
     printf("Product: %d\n", multiply(x, y));
