@@ -20,6 +20,8 @@ int main() {
     int x, y;
     printf("--------------------\n");
     printf("Simple Calculator\n");
+    printf("Made by Nicolás Aguado");
+    printf(" Copyright 2024");
     printf("--------------------\n");
     printf("Enter two integers: ");
     scanf("%d %d", &x, &y);
