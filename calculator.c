@@ -20,6 +20,7 @@ int main() {
     int x, y;
     printf("--------------------\n");
     printf("Simple Calculator\n");
+    printf("Smiley Face :)");
     printf("--------------------\n");
     printf("Enter two integers: ");
     scanf("%d %d", &x, &y);
